@@ -1,0 +1,19 @@
+{
+  "name": "kentflixdesktop",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KentCompSoc/KentFlixDesktopApp.git"
+  },
+  "author": "Kent Computing Society",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KentCompSoc/KentFlixDesktopApp/issues"
+  },
+  "homepage": "https://github.com/KentCompSoc/KentFlixDesktopApp#readme"
+}

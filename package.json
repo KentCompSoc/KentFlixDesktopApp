@@ -1,14 +1,17 @@
 {
-  "name": "kentflixdesktop",
+  "name": "kent-flix-desktop",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KentCompSoc/KentFlixDesktopApp.git"
+  },
+  "dependencies": {
+    "electron": "^3.0.10"
   },
   "author": "Kent Computing Society",
   "license": "MIT",

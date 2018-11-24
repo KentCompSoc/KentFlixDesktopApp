@@ -12,8 +12,15 @@ function createWindow() {
     win = new BrowserWindow({width: 800, height: 600, resizable: true, maximizable: true});
   //  win.loadURL("file://" + __dirname + "/KentFlixClient/public/index.html)
   win.loadURL("https://kentflix.com");
-
+  win.setMenu(null)
   win.maximize();
+
+  win.webContents.on('did-finish-load', ()=>{
+    let version = require(`./package.json`).version;
+
+    let windowtitle = "KentFlix Desktop " + version;
+    win.setTitle(windowtitle);
+  });
 }
 
 app.on("ready", createWindow);
